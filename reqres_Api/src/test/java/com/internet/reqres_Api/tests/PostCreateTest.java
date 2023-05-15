@@ -1,5 +1,6 @@
 package com.internet.reqres_Api.tests;
 
+import com.internet.reqres_Api.tests.Configuration.BaseURL;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
@@ -9,7 +10,7 @@ import static org.hamcrest.Matchers.lessThan;
 
 
 
-public class PostCreateTest {
+public class PostCreateTest extends BaseURL {
 
     @Test
     public void postCreateTest() {

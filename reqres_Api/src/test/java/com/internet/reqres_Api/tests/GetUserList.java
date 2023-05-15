@@ -1,11 +1,12 @@
 package com.internet.reqres_Api.tests;
 
+import com.internet.reqres_Api.tests.Configuration.BaseURL;
 import org.testng.annotations.Test;
 import io.restassured.response.*;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class GetUserList {
+public class GetUserList extends BaseURL {
 
     @Test
     public void getUserList() {

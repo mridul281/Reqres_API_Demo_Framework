@@ -1,5 +1,6 @@
 package com.internet.reqres_Api.tests;
 
+import com.internet.reqres_Api.tests.Configuration.BaseURL;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
@@ -7,7 +8,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.lessThan;
 
-public class PatchUpdateTest {
+public class PatchUpdateTest extends BaseURL {
     @Test
     public void patchUpdateTest() {
         final String json = "{\"name\": \"mridul\", \"job\": \"full stack sqa\"}";

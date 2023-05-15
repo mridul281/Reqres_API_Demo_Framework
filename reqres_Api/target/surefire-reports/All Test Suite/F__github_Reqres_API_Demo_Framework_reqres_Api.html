@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  F:/github/Reqres_API_Demo_Framework/reqres_Api</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>F:/github/Reqres_API_Demo_Framework/reqres_Api</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 15 11:40:22 BDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>18 seconds (18660 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.GetSingleUser.getSingleUser()'><b>getSingleUser</b><br>Test class: com.internet.reqres_Api.tests.GetSingleUser</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.GetSingleUser@7d0332e1</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.DeleteTest.deleteTest()'><b>deleteTest</b><br>Test class: com.internet.reqres_Api.tests.DeleteTest</td>
+<td></td>
+<td>4</td>
+<td>com.internet.reqres_Api.tests.DeleteTest@e36bb2a</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.GetAllUsersPagedDelayed.getAllUsersPagedDelayed()'><b>getAllUsersPagedDelayed</b><br>Test class: com.internet.reqres_Api.tests.GetAllUsersPagedDelayed</td>
+<td></td>
+<td>5</td>
+<td>com.internet.reqres_Api.tests.GetAllUsersPagedDelayed@3c4bc9fc</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest.postLoginUnsuccessfulTest()'><b>postLoginUnsuccessfulTest</b><br>Test class: com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest@430fa4ef</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.GetApiUnknown.getApiUnknown()'><b>getApiUnknown</b><br>Test class: com.internet.reqres_Api.tests.GetApiUnknown</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.GetApiUnknown@1f651cd8</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.GetUserList.getUserList()'><b>getUserList</b><br>Test class: com.internet.reqres_Api.tests.GetUserList</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.GetUserList@c827db</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.PostRegisterUserTest.postRegisterUserTest()'><b>postRegisterUserTest</b><br>Test class: com.internet.reqres_Api.tests.PostRegisterUserTest</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.PostRegisterUserTest@1761de10</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.PostLoginSuccessfulTest.postLoginSuccessfulTest()'><b>postLoginSuccessfulTest</b><br>Test class: com.internet.reqres_Api.tests.PostLoginSuccessfulTest</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.PostLoginSuccessfulTest@238ad8c</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.PostCreateTest.postCreateTest()'><b>postCreateTest</b><br>Test class: com.internet.reqres_Api.tests.PostCreateTest</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.PostCreateTest@538cd0f2</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.PatchUpdateTest.patchUpdateTest()'><b>patchUpdateTest</b><br>Test class: com.internet.reqres_Api.tests.PatchUpdateTest</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.PatchUpdateTest@377c68c6</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.PutUpdateTest.putUpdateTest()'><b>putUpdateTest</b><br>Test class: com.internet.reqres_Api.tests.PutUpdateTest</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.PutUpdateTest@654c1a54</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown.getApiSingleOnlyUnknown()'><b>getApiSingleOnlyUnknown</b><br>Test class: com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown@680362a</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest.postRegisterUserUnsuccessfulTest()'><b>postRegisterUserUnsuccessfulTest</b><br>Test class: com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest@22df874e</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound.getApiSingleOnlyUnknownNotFound()'><b>getApiSingleOnlyUnknownNotFound</b><br>Test class: com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound@3569edd5</td></tr>
+<tr>
+<td title='com.internet.reqres_Api.tests.GetSingleUserNotFound.getSingleUserNotFound()'><b>getSingleUserNotFound</b><br>Test class: com.internet.reqres_Api.tests.GetSingleUserNotFound</td>
+<td></td>
+<td>0</td>
+<td>com.internet.reqres_Api.tests.GetSingleUserNotFound@7a356a0d</td></tr>
+</table><p>
+</body>
+</html>

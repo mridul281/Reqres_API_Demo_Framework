@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-15T11:40:22 BDT" name="All Test Suite" finished-at="2023-05-15T11:40:41 BDT" duration-ms="18660">
+    <groups>
+    </groups>
+    <test started-at="2023-05-15T11:40:22 BDT" name="F:/github/Reqres_API_Demo_Framework/reqres_Api" finished-at="2023-05-15T11:40:41 BDT" duration-ms="18660">
+      <class name="com.internet.reqres_Api.tests.GetApiUnknown">
+        <test-method signature="getApiUnknown()[pri:0, instance:com.internet.reqres_Api.tests.GetApiUnknown@1f651cd8]" started-at="2023-05-15T11:40:33 BDT" name="getApiUnknown" finished-at="2023-05-15T11:40:34 BDT" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiUnknown -->
+      </class> <!-- com.internet.reqres_Api.tests.GetApiUnknown -->
+      <class name="com.internet.reqres_Api.tests.DeleteTest">
+        <test-method signature="deleteTest()[pri:0, instance:com.internet.reqres_Api.tests.DeleteTest@e36bb2a]" started-at="2023-05-15T11:40:22 BDT" name="deleteTest" finished-at="2023-05-15T11:40:26 BDT" duration-ms="4165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- com.internet.reqres_Api.tests.DeleteTest -->
+      <class name="com.internet.reqres_Api.tests.GetAllUsersPagedDelayed">
+        <test-method signature="getAllUsersPagedDelayed()[pri:0, instance:com.internet.reqres_Api.tests.GetAllUsersPagedDelayed@3c4bc9fc]" started-at="2023-05-15T11:40:26 BDT" name="getAllUsersPagedDelayed" finished-at="2023-05-15T11:40:32 BDT" duration-ms="5764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsersPagedDelayed -->
+      </class> <!-- com.internet.reqres_Api.tests.GetAllUsersPagedDelayed -->
+      <class name="com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest">
+        <test-method signature="postLoginUnsuccessfulTest()[pri:0, instance:com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest@430fa4ef]" started-at="2023-05-15T11:40:38 BDT" name="postLoginUnsuccessfulTest" finished-at="2023-05-15T11:40:38 BDT" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLoginUnsuccessfulTest -->
+      </class> <!-- com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest -->
+      <class name="com.internet.reqres_Api.tests.GetUserList">
+        <test-method signature="getUserList()[pri:0, instance:com.internet.reqres_Api.tests.GetUserList@c827db]" started-at="2023-05-15T11:40:35 BDT" name="getUserList" finished-at="2023-05-15T11:40:36 BDT" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserList -->
+      </class> <!-- com.internet.reqres_Api.tests.GetUserList -->
+      <class name="com.internet.reqres_Api.tests.GetSingleUserNotFound">
+        <test-method signature="getSingleUserNotFound()[pri:0, instance:com.internet.reqres_Api.tests.GetSingleUserNotFound@7a356a0d]" started-at="2023-05-15T11:40:34 BDT" name="getSingleUserNotFound" finished-at="2023-05-15T11:40:35 BDT" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUserNotFound -->
+      </class> <!-- com.internet.reqres_Api.tests.GetSingleUserNotFound -->
+      <class name="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound">
+        <test-method signature="getApiSingleOnlyUnknownNotFound()[pri:0, instance:com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound@3569edd5]" started-at="2023-05-15T11:40:33 BDT" name="getApiSingleOnlyUnknownNotFound" finished-at="2023-05-15T11:40:33 BDT" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiSingleOnlyUnknownNotFound -->
+      </class> <!-- com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound -->
+      <class name="com.internet.reqres_Api.tests.PutUpdateTest">
+        <test-method signature="putUpdateTest()[pri:0, instance:com.internet.reqres_Api.tests.PutUpdateTest@654c1a54]" started-at="2023-05-15T11:40:40 BDT" name="putUpdateTest" finished-at="2023-05-15T11:40:41 BDT" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUpdateTest -->
+      </class> <!-- com.internet.reqres_Api.tests.PutUpdateTest -->
+      <class name="com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest">
+        <test-method signature="postRegisterUserUnsuccessfulTest()[pri:0, instance:com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest@22df874e]" started-at="2023-05-15T11:40:39 BDT" name="postRegisterUserUnsuccessfulTest" finished-at="2023-05-15T11:40:40 BDT" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRegisterUserUnsuccessfulTest -->
+      </class> <!-- com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest -->
+      <class name="com.internet.reqres_Api.tests.PostLoginSuccessfulTest">
+        <test-method signature="postLoginSuccessfulTest()[pri:0, instance:com.internet.reqres_Api.tests.PostLoginSuccessfulTest@238ad8c]" started-at="2023-05-15T11:40:37 BDT" name="postLoginSuccessfulTest" finished-at="2023-05-15T11:40:38 BDT" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLoginSuccessfulTest -->
+      </class> <!-- com.internet.reqres_Api.tests.PostLoginSuccessfulTest -->
+      <class name="com.internet.reqres_Api.tests.GetSingleUser">
+        <test-method signature="getSingleUser()[pri:0, instance:com.internet.reqres_Api.tests.GetSingleUser@7d0332e1]" started-at="2023-05-15T11:40:34 BDT" name="getSingleUser" finished-at="2023-05-15T11:40:34 BDT" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUser -->
+      </class> <!-- com.internet.reqres_Api.tests.GetSingleUser -->
+      <class name="com.internet.reqres_Api.tests.PatchUpdateTest">
+        <test-method signature="patchUpdateTest()[pri:0, instance:com.internet.reqres_Api.tests.PatchUpdateTest@377c68c6]" started-at="2023-05-15T11:40:36 BDT" name="patchUpdateTest" finished-at="2023-05-15T11:40:36 BDT" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchUpdateTest -->
+      </class> <!-- com.internet.reqres_Api.tests.PatchUpdateTest -->
+      <class name="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown">
+        <test-method signature="getApiSingleOnlyUnknown()[pri:0, instance:com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown@680362a]" started-at="2023-05-15T11:40:32 BDT" name="getApiSingleOnlyUnknown" finished-at="2023-05-15T11:40:33 BDT" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiSingleOnlyUnknown -->
+      </class> <!-- com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown -->
+      <class name="com.internet.reqres_Api.tests.PostCreateTest">
+        <test-method signature="postCreateTest()[pri:0, instance:com.internet.reqres_Api.tests.PostCreateTest@538cd0f2]" started-at="2023-05-15T11:40:36 BDT" name="postCreateTest" finished-at="2023-05-15T11:40:37 BDT" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCreateTest -->
+      </class> <!-- com.internet.reqres_Api.tests.PostCreateTest -->
+      <class name="com.internet.reqres_Api.tests.PostRegisterUserTest">
+        <test-method signature="postRegisterUserTest()[pri:0, instance:com.internet.reqres_Api.tests.PostRegisterUserTest@1761de10]" started-at="2023-05-15T11:40:38 BDT" name="postRegisterUserTest" finished-at="2023-05-15T11:40:39 BDT" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRegisterUserTest -->
+      </class> <!-- com.internet.reqres_Api.tests.PostRegisterUserTest -->
+    </test> <!-- F:/github/Reqres_API_Demo_Framework/reqres_Api -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

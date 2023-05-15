@@ -24,4 +24,51 @@
                     <include name="getSingleUser"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.GetSingleUserNotFound"><methods><include name="getSingleUserNotFound"/></methods></class><class name="com.internet.reqres_Api.tests.GetUserList"><methods><include name="getUserList"/></methods></class><class name="com.internet.reqres_Api.tests.PatchUpdateTest"><methods><include name="patchUpdateTest"/></methods></class><class name="com.internet.reqres_Api.tests.PostCreateTest"><methods><include name="postCreateTest"/></methods></class><class name="com.internet.reqres_Api.tests.PostLoginSuccessfulTest"><methods><include name="postLoginSuccessfulTest"/></methods></class><class name="com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest"><methods><include name="postLoginUnsuccessfulTest"/></methods></class><class name="com.internet.reqres_Api.tests.PostRegisterUserTest"><methods><include name="postRegisterUserTest"/></methods></class><class name="com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest"><methods><include name="postRegisterUserUnsuccessfulTest"/></methods></class><class name="com.internet.reqres_Api.tests.PutUpdateTest"><methods><include name="putUpdateTest"/></methods></class></classes></test></suite>
+            <class name="com.internet.reqres_Api.tests.GetSingleUserNotFound">
+                <methods>
+                    <include name="getSingleUserNotFound"/>
+                </methods>
+            </class>
+            <class name="com.internet.reqres_Api.tests.GetUserList">
+                <methods>
+                    <include name="getUserList"/>
+                </methods>
+            </class>
+            <class name="com.internet.reqres_Api.tests.PatchUpdateTest">
+                <methods>
+                    <include name="patchUpdateTest"/>
+                </methods>
+            </class>
+            <class name="com.internet.reqres_Api.tests.PostCreateTest">
+                <methods>
+                    <include name="postCreateTest"/>
+                </methods>
+            </class>
+            <class name="com.internet.reqres_Api.tests.PostLoginSuccessfulTest">
+                <methods>
+                    <include name="postLoginSuccessfulTest"/>
+                </methods>
+            </class>
+            <class name="com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest">
+                <methods>
+                    <include name="postLoginUnsuccessfulTest"/>
+                </methods>
+            </class>
+            <class name="com.internet.reqres_Api.tests.PostRegisterUserTest">
+                <methods>
+                    <include name="postRegisterUserTest"/>
+                </methods>
+            </class>
+            <class name="com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest">
+                <methods>
+                    <include name="postRegisterUserUnsuccessfulTest"/>
+                </methods>
+            </class>
+            <class name="com.internet.reqres_Api.tests.PutUpdateTest">
+                <methods>
+                    <include name="putUpdateTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

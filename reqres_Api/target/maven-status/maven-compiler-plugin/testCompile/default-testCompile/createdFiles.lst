@@ -1,1 +1,16 @@
-com\internet\reqres_Api\AppTest.class
+com\internet\reqres_Api\tests\Configuration\BaseURL.class
+com\internet\reqres_Api\tests\PostLoginSuccessfulTest.class
+com\internet\reqres_Api\tests\PostRegisterUserTest.class
+com\internet\reqres_Api\tests\PostCreateTest.class
+com\internet\reqres_Api\tests\GetApiSingleOnlyUnknownNotFound.class
+com\internet\reqres_Api\tests\GetAllUsersPagedDelayed.class
+com\internet\reqres_Api\tests\PostLoginUnsuccessfulTest.class
+com\internet\reqres_Api\tests\PatchUpdateTest.class
+com\internet\reqres_Api\tests\PostRegisterUserUnsuccessfulTest.class
+com\internet\reqres_Api\tests\DeleteTest.class
+com\internet\reqres_Api\tests\GetApiSingleOnlyUnknown.class
+com\internet\reqres_Api\tests\GetSingleUser.class
+com\internet\reqres_Api\tests\GetUserList.class
+com\internet\reqres_Api\tests\GetApiUnknown.class
+com\internet\reqres_Api\tests\PutUpdateTest.class
+com\internet\reqres_Api\tests\GetSingleUserNotFound.class

@@ -1,13 +1,12 @@
 package com.internet.reqres_Api.tests.Configuration;
-import org.junit.Before;
-
+import org.testng.annotations.BeforeMethod;
 import static io.restassured.RestAssured.baseURI;
 
 
 public class BaseURL {
 
-    @Before
-    public void before() {
+    @BeforeMethod
+    public void beforeMethode() {
         baseURI = "https://reqres.in/";
     }
 

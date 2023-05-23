@@ -1,157 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="1" total="15" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-15T12:05:08 BDT" name="All Test Suite" finished-at="2023-05-15T12:05:27 BDT" duration-ms="19144">
+  <suite started-at="2023-05-23T23:49:55 BDT" name="All Test Suite" finished-at="2023-05-23T23:50:09 BDT" duration-ms="13436">
     <groups>
     </groups>
-    <test started-at="2023-05-15T12:05:08 BDT" name="F:/github/Reqres_API_Demo_Framework/reqres_Api" finished-at="2023-05-15T12:05:27 BDT" duration-ms="19144">
-      <class name="com.internet.reqres_Api.tests.GetApiUnknown">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.GetApiUnknown@7882c44a]" started-at="2023-05-15T12:05:19 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:19 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="getApiUnknown()[pri:0, instance:com.internet.reqres_Api.tests.GetApiUnknown@7882c44a]" started-at="2023-05-15T12:05:19 BDT" name="getApiUnknown" finished-at="2023-05-15T12:05:19 BDT" duration-ms="413" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiUnknown -->
-      </class> <!-- com.internet.reqres_Api.tests.GetApiUnknown -->
+    <test started-at="2023-05-23T23:49:55 BDT" name="F:/github/Reqres_API_Demo_Framework/reqres_Api" finished-at="2023-05-23T23:50:09 BDT" duration-ms="13436">
       <class name="com.internet.reqres_Api.tests.DeleteTest">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.DeleteTest@7f4037ed]" started-at="2023-05-15T12:05:08 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:09 BDT" duration-ms="1384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="deleteTest()[pri:0, instance:com.internet.reqres_Api.tests.DeleteTest@7f4037ed]" started-at="2023-05-15T12:05:09 BDT" name="deleteTest" finished-at="2023-05-15T12:05:12 BDT" duration-ms="3220" status="PASS">
+        <test-method signature="deleteTest()[pri:0, instance:com.internet.reqres_Api.tests.DeleteTest@2577d6c8]" started-at="2023-05-23T23:49:55 BDT" name="deleteTest" finished-at="2023-05-23T23:49:59 BDT" duration-ms="3111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTest -->
       </class> <!-- com.internet.reqres_Api.tests.DeleteTest -->
       <class name="com.internet.reqres_Api.tests.GetAllUsersPagedDelayed">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.GetAllUsersPagedDelayed@79b663b3]" started-at="2023-05-15T12:05:12 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:12 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="getAllUsersPagedDelayed()[pri:0, instance:com.internet.reqres_Api.tests.GetAllUsersPagedDelayed@79b663b3]" started-at="2023-05-15T12:05:12 BDT" name="getAllUsersPagedDelayed" finished-at="2023-05-15T12:05:18 BDT" duration-ms="5333" status="PASS">
+        <test-method signature="getAllUsersPagedDelayed()[pri:0, instance:com.internet.reqres_Api.tests.GetAllUsersPagedDelayed@55caeb35]" started-at="2023-05-23T23:49:59 BDT" name="getAllUsersPagedDelayed" finished-at="2023-05-23T23:50:01 BDT" duration-ms="2054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllUsersPagedDelayed -->
       </class> <!-- com.internet.reqres_Api.tests.GetAllUsersPagedDelayed -->
       <class name="com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest@5652f555]" started-at="2023-05-15T12:05:24 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:24 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="postLoginUnsuccessfulTest()[pri:0, instance:com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest@5652f555]" started-at="2023-05-15T12:05:24 BDT" name="postLoginUnsuccessfulTest" finished-at="2023-05-15T12:05:25 BDT" duration-ms="792" status="PASS">
+        <test-method signature="postLoginUnsuccessfulTest()[pri:0, instance:com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest@d4602a]" started-at="2023-05-23T23:50:06 BDT" name="postLoginUnsuccessfulTest" finished-at="2023-05-23T23:50:07 BDT" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postLoginUnsuccessfulTest -->
       </class> <!-- com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest -->
       <class name="com.internet.reqres_Api.tests.GetUserList">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.GetUserList@3887cf88]" started-at="2023-05-15T12:05:21 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:21 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="getUserList()[pri:0, instance:com.internet.reqres_Api.tests.GetUserList@3887cf88]" started-at="2023-05-15T12:05:21 BDT" name="getUserList" finished-at="2023-05-15T12:05:21 BDT" duration-ms="645" status="PASS">
+        <test-method signature="getUserList()[pri:0, instance:com.internet.reqres_Api.tests.GetUserList@4287d447]" started-at="2023-05-23T23:50:04 BDT" name="getUserList" finished-at="2023-05-23T23:50:04 BDT" duration-ms="367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserList -->
       </class> <!-- com.internet.reqres_Api.tests.GetUserList -->
       <class name="com.internet.reqres_Api.tests.GetSingleUserNotFound">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.GetSingleUserNotFound@20d11153]" started-at="2023-05-15T12:05:20 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:20 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="getSingleUserNotFound()[pri:0, instance:com.internet.reqres_Api.tests.GetSingleUserNotFound@20d11153]" started-at="2023-05-15T12:05:20 BDT" name="getSingleUserNotFound" finished-at="2023-05-15T12:05:21 BDT" duration-ms="633" status="PASS">
+        <test-method signature="getSingleUserNotFound()[pri:0, instance:com.internet.reqres_Api.tests.GetSingleUserNotFound@2fa3be26]" started-at="2023-05-23T23:50:03 BDT" name="getSingleUserNotFound" finished-at="2023-05-23T23:50:04 BDT" duration-ms="743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleUserNotFound -->
       </class> <!-- com.internet.reqres_Api.tests.GetSingleUserNotFound -->
       <class name="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound@5d28bcd5]" started-at="2023-05-15T12:05:18 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:18 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="getApiSingleOnlyUnknownNotFound()[pri:0, instance:com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound@5d28bcd5]" started-at="2023-05-15T12:05:18 BDT" name="getApiSingleOnlyUnknownNotFound" finished-at="2023-05-15T12:05:19 BDT" duration-ms="748" status="PASS">
+        <test-method signature="getApiSingleOnlyUnknownNotFound()[pri:0, instance:com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound@2c383e33]" started-at="2023-05-23T23:50:02 BDT" name="getApiSingleOnlyUnknownNotFound" finished-at="2023-05-23T23:50:02 BDT" duration-ms="744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getApiSingleOnlyUnknownNotFound -->
       </class> <!-- com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound -->
       <class name="com.internet.reqres_Api.tests.PutUpdateTest">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.PutUpdateTest@794b435f]" started-at="2023-05-15T12:05:26 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:26 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="putUpdateTest()[pri:0, instance:com.internet.reqres_Api.tests.PutUpdateTest@794b435f]" started-at="2023-05-15T12:05:26 BDT" name="putUpdateTest" finished-at="2023-05-15T12:05:27 BDT" duration-ms="757" status="PASS">
+        <test-method signature="putUpdateTest()[pri:0, instance:com.internet.reqres_Api.tests.PutUpdateTest@15515c51]" started-at="2023-05-23T23:50:08 BDT" name="putUpdateTest" finished-at="2023-05-23T23:50:09 BDT" duration-ms="767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- putUpdateTest -->
       </class> <!-- com.internet.reqres_Api.tests.PutUpdateTest -->
       <class name="com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest@55120f99]" started-at="2023-05-15T12:05:25 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:25 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="postRegisterUserUnsuccessfulTest()[pri:0, instance:com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest@55120f99]" started-at="2023-05-15T12:05:25 BDT" name="postRegisterUserUnsuccessfulTest" finished-at="2023-05-15T12:05:26 BDT" duration-ms="706" status="PASS">
+        <test-method signature="postRegisterUserUnsuccessfulTest()[pri:0, instance:com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest@47dd778]" started-at="2023-05-23T23:50:07 BDT" name="postRegisterUserUnsuccessfulTest" finished-at="2023-05-23T23:50:08 BDT" duration-ms="679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postRegisterUserUnsuccessfulTest -->
       </class> <!-- com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest -->
       <class name="com.internet.reqres_Api.tests.PostLoginSuccessfulTest">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.PostLoginSuccessfulTest@502f8b57]" started-at="2023-05-15T12:05:23 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:23 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="postLoginSuccessfulTest()[pri:0, instance:com.internet.reqres_Api.tests.PostLoginSuccessfulTest@502f8b57]" started-at="2023-05-15T12:05:23 BDT" name="postLoginSuccessfulTest" finished-at="2023-05-15T12:05:24 BDT" duration-ms="774" status="PASS">
+        <test-method signature="postLoginSuccessfulTest()[pri:0, instance:com.internet.reqres_Api.tests.PostLoginSuccessfulTest@7c0da600]" started-at="2023-05-23T23:50:05 BDT" name="postLoginSuccessfulTest" finished-at="2023-05-23T23:50:06 BDT" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postLoginSuccessfulTest -->
       </class> <!-- com.internet.reqres_Api.tests.PostLoginSuccessfulTest -->
       <class name="com.internet.reqres_Api.tests.GetSingleUser">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.GetSingleUser@32639b12]" started-at="2023-05-15T12:05:19 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:19 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="getSingleUser()[pri:0, instance:com.internet.reqres_Api.tests.GetSingleUser@32639b12]" started-at="2023-05-15T12:05:19 BDT" name="getSingleUser" finished-at="2023-05-15T12:05:20 BDT" duration-ms="624" status="PASS">
+        <test-method signature="getSingleUser()[pri:0, instance:com.internet.reqres_Api.tests.GetSingleUser@76304b46]" started-at="2023-05-23T23:50:02 BDT" name="getSingleUser" finished-at="2023-05-23T23:50:03 BDT" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleUser -->
       </class> <!-- com.internet.reqres_Api.tests.GetSingleUser -->
       <class name="com.internet.reqres_Api.tests.PatchUpdateTest">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.PatchUpdateTest@5649ec46]" started-at="2023-05-15T12:05:21 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:21 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="patchUpdateTest()[pri:0, instance:com.internet.reqres_Api.tests.PatchUpdateTest@5649ec46]" started-at="2023-05-15T12:05:21 BDT" name="patchUpdateTest" finished-at="2023-05-15T12:05:22 BDT" duration-ms="810" status="PASS">
+        <test-method signature="patchUpdateTest()[pri:0, instance:com.internet.reqres_Api.tests.PatchUpdateTest@3af37506]" started-at="2023-05-23T23:50:04 BDT" name="patchUpdateTest" finished-at="2023-05-23T23:50:05 BDT" duration-ms="785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patchUpdateTest -->
       </class> <!-- com.internet.reqres_Api.tests.PatchUpdateTest -->
       <class name="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown@1b812421]" started-at="2023-05-15T12:05:18 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:18 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="getApiSingleOnlyUnknown()[pri:0, instance:com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown@1b812421]" started-at="2023-05-15T12:05:18 BDT" name="getApiSingleOnlyUnknown" finished-at="2023-05-15T12:05:18 BDT" duration-ms="444" status="PASS">
+        <test-method signature="getApiSingleOnlyUnknown()[pri:0, instance:com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown@6d868997]" started-at="2023-05-23T23:50:01 BDT" name="getApiSingleOnlyUnknown" finished-at="2023-05-23T23:50:02 BDT" duration-ms="852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getApiSingleOnlyUnknown -->
       </class> <!-- com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown -->
       <class name="com.internet.reqres_Api.tests.PostCreateTest">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.PostCreateTest@78dc4696]" started-at="2023-05-15T12:05:22 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:22 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="postCreateTest()[pri:0, instance:com.internet.reqres_Api.tests.PostCreateTest@78dc4696]" started-at="2023-05-15T12:05:22 BDT" name="postCreateTest" finished-at="2023-05-15T12:05:23 BDT" duration-ms="776" status="PASS">
+        <test-method signature="postCreateTest()[pri:0, instance:com.internet.reqres_Api.tests.PostCreateTest@4e6d7365]" started-at="2023-05-23T23:50:05 BDT" name="postCreateTest" finished-at="2023-05-23T23:50:05 BDT" duration-ms="709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCreateTest -->
       </class> <!-- com.internet.reqres_Api.tests.PostCreateTest -->
       <class name="com.internet.reqres_Api.tests.PostRegisterUserTest">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:com.internet.reqres_Api.tests.PostRegisterUserTest@4fe01805]" started-at="2023-05-15T12:05:25 BDT" name="beforeMethode" finished-at="2023-05-15T12:05:25 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethode -->
-        <test-method signature="postRegisterUserTest()[pri:0, instance:com.internet.reqres_Api.tests.PostRegisterUserTest@4fe01805]" started-at="2023-05-15T12:05:25 BDT" name="postRegisterUserTest" finished-at="2023-05-15T12:05:25 BDT" duration-ms="703" status="PASS">
+        <test-method signature="postRegisterUserTest()[pri:0, instance:com.internet.reqres_Api.tests.PostRegisterUserTest@21ae6e73]" started-at="2023-05-23T23:50:07 BDT" name="postRegisterUserTest" finished-at="2023-05-23T23:50:07 BDT" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postRegisterUserTest -->

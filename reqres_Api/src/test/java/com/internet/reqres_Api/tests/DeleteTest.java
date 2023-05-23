@@ -1,22 +1,31 @@
 package com.internet.reqres_Api.tests;
 
-import com.internet.reqres_Api.tests.Configuration.BaseURL;
+import com.internet.reqres_Api.tests.Utilities.Resources;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.lessThan;
 
-public class DeleteTest extends BaseURL {
+public class DeleteTest {
+    String parameter = "/users/2";
+
+    String Delete_End_Point = Resources.Service_End_Point + Resources.Resource_End_Point + parameter;
 
     @Test
     public void deleteTest() {
+        System.out.println("DeleteEndPoint: " + Delete_End_Point);
+
+
         Response deleteTest = given().
                 when().
-                delete("https://reqres.in/api/users/2");
+                delete(Delete_End_Point);
         deleteTest.then()
                 .assertThat()
                 .time(lessThan(5000L))
-                .statusCode(204);
+                .statusCode(Resources.No_Content);
+
+
+
     }
 }

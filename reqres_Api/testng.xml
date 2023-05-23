@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="F:/github/Reqres_API_Demo_Framework/reqres_Api">
         <classes>
             <class name="com.internet.reqres_Api.tests.DeleteTest">
                 <methods>
-                    <include name="deleteTest"/></methods></class><class name="com.internet.reqres_Api.tests.GetAllUsersPagedDelayed">
-            <methods>
-                <include name="getAllUsersPagedDelayed"/>
-            </methods>
-        </class>
+                    <include name="deleteTest"/>
+                </methods>
+            </class>
+            <class name="com.internet.reqres_Api.tests.GetAllUsersPagedDelayed">
+                <methods>
+                    <include name="getAllUsersPagedDelayed"/>
+                </methods>
+            </class>
             <class name="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown">
-                <methods><include name="getApiSingleOnlyUnknown"/></methods>
+                <methods>
+                    <include name="getApiSingleOnlyUnknown"/>
+                </methods>
             </class>
             <class name="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound">
                 <methods>
                     <include name="getApiSingleOnlyUnknownNotFound"/>
-                </methods></class><class name="com.internet.reqres_Api.tests.GetApiUnknown">
-            <methods><include name="getApiUnknown"/>
-            </methods></class>
+                </methods>
+            </class>
+            <class name="com.internet.reqres_Api.tests.GetListApiUnknown">
+                <methods>
+                    <include name="getListApiUnknown"/>
+                </methods>
+            </class>
             <class name="com.internet.reqres_Api.tests.GetSingleUser">
                 <methods>
                     <include name="getSingleUser"/>

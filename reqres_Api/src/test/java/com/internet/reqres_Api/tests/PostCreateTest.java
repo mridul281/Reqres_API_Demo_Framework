@@ -1,6 +1,7 @@
 package com.internet.reqres_Api.tests;
 
-import com.internet.reqres_Api.tests.Configuration.BaseURL;
+import com.internet.reqres_Api.tests.Protocol_Design.PostUtils;
+import com.internet.reqres_Api.tests.Utilities.Resources;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
@@ -9,25 +10,32 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.lessThan;
 
 
+public class PostCreateTest{
+    String parameter = "/users";
 
-public class PostCreateTest extends BaseURL {
+    String POST_Creat_Users_EndPoint = Resources.Service_End_Point + Resources.Resource_End_Point + parameter;
+
 
     @Test
     public void postCreateTest() {
+        System.out.println("POSTCreatUsers_EndPoint: " + POST_Creat_Users_EndPoint);
 
-        final String json = "{\"name\": \"mridul\", \"job\": \"qa engineer\"}";
+
         Response postCreatTest = given().
                 contentType("application/json")
-                .body(json)
+                .body(PostUtils.Json_Post_Create_User)
+                //.body(PostUtils.createUser(PostUtils.randomGivenUserName))
                 .when()
-                .post("https://reqres.in/api/user");
+                .post(POST_Creat_Users_EndPoint);
 
         postCreatTest.then()
                 .assertThat()
                 .time(lessThan(5000L))
-                .statusCode(201)
+                .statusCode(Resources.Successfully_Account_Created)
                 .body("name", equalTo("mridul"))
                 .body("job", equalTo("qa engineer"));
+
+
 
 
                 /*
@@ -39,6 +47,8 @@ public class PostCreateTest extends BaseURL {
                 .statusCode(201)
                 .contentType("application/json")
                  */
+
+
 
 
     }

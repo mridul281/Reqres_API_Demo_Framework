@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="21.817" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="14.883" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
@@ -60,19 +60,18 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="deleteTest" classname="com.internet.reqres_Api.tests.DeleteTest" time="3.227"/>
-  <testcase name="getAllUsersPagedDelayed" classname="com.internet.reqres_Api.tests.GetAllUsersPagedDelayed" time="5.345"/>
-  <testcase name="getApiSingleOnlyUnknown" classname="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown" time="0.445"/>
-  <testcase name="getApiSingleOnlyUnknownNotFound" classname="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound" time="0.749"/>
-  <testcase name="getApiUnknown" classname="com.internet.reqres_Api.tests.GetApiUnknown" time="0.413"/>
-  <testcase name="getSingleUser" classname="com.internet.reqres_Api.tests.GetSingleUser" time="0.625"/>
-  <testcase name="getSingleUserNotFound" classname="com.internet.reqres_Api.tests.GetSingleUserNotFound" time="0.635"/>
-  <testcase name="getUserList" classname="com.internet.reqres_Api.tests.GetUserList" time="0.688"/>
-  <testcase name="patchUpdateTest" classname="com.internet.reqres_Api.tests.PatchUpdateTest" time="0.81"/>
-  <testcase name="postCreateTest" classname="com.internet.reqres_Api.tests.PostCreateTest" time="0.781"/>
-  <testcase name="postLoginSuccessfulTest" classname="com.internet.reqres_Api.tests.PostLoginSuccessfulTest" time="0.774"/>
-  <testcase name="postLoginUnsuccessfulTest" classname="com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest" time="0.793"/>
-  <testcase name="postRegisterUserTest" classname="com.internet.reqres_Api.tests.PostRegisterUserTest" time="0.705"/>
-  <testcase name="postRegisterUserUnsuccessfulTest" classname="com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest" time="0.708"/>
-  <testcase name="putUpdateTest" classname="com.internet.reqres_Api.tests.PutUpdateTest" time="0.761"/>
+  <testcase name="deleteTest" classname="com.internet.reqres_Api.tests.DeleteTest" time="3.234"/>
+  <testcase name="getAllUsersPagedDelayed" classname="com.internet.reqres_Api.tests.GetAllUsersPagedDelayed" time="2.062"/>
+  <testcase name="getApiSingleOnlyUnknown" classname="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown" time="0.854"/>
+  <testcase name="getApiSingleOnlyUnknownNotFound" classname="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound" time="0.746"/>
+  <testcase name="getSingleUser" classname="com.internet.reqres_Api.tests.GetSingleUser" time="0.374"/>
+  <testcase name="getSingleUserNotFound" classname="com.internet.reqres_Api.tests.GetSingleUserNotFound" time="0.745"/>
+  <testcase name="getUserList" classname="com.internet.reqres_Api.tests.GetUserList" time="0.367"/>
+  <testcase name="patchUpdateTest" classname="com.internet.reqres_Api.tests.PatchUpdateTest" time="0.785"/>
+  <testcase name="postCreateTest" classname="com.internet.reqres_Api.tests.PostCreateTest" time="0.712"/>
+  <testcase name="postLoginSuccessfulTest" classname="com.internet.reqres_Api.tests.PostLoginSuccessfulTest" time="0.652"/>
+  <testcase name="postLoginUnsuccessfulTest" classname="com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest" time="0.663"/>
+  <testcase name="postRegisterUserTest" classname="com.internet.reqres_Api.tests.PostRegisterUserTest" time="0.714"/>
+  <testcase name="postRegisterUserUnsuccessfulTest" classname="com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest" time="0.68"/>
+  <testcase name="putUpdateTest" classname="com.internet.reqres_Api.tests.PutUpdateTest" time="0.767"/>
 </testsuite>

@@ -1,23 +1,27 @@
 package com.internet.reqres_Api.tests;
 
-import com.internet.reqres_Api.tests.Configuration.BaseURL;
+import com.internet.reqres_Api.tests.Utilities.Resources;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.lessThan;
 
-public class GetApiSingleOnlyUnknownNotFound extends BaseURL {
+public class GetApiSingleOnlyUnknownNotFound {
+    String parameter = "/unknown/23";
+    String GET_Single_OnlyUnknown_NotFound_EndPoint = Resources.Service_End_Point + Resources.Resource_End_Point + parameter;
 
     @Test
     public void getApiSingleOnlyUnknownNotFound() {
+        System.out.println("GETSingleOnlyUnknownNotFoundEndPoint: " + GET_Single_OnlyUnknown_NotFound_EndPoint);
+
 
         Response getApiSingleOnlyUnknownNotFound = given().
                 when().
-                get("https://reqres.in/api/unknown/23");
+                get(GET_Single_OnlyUnknown_NotFound_EndPoint);
         getApiSingleOnlyUnknownNotFound.then()
                 .assertThat()
                 .time(lessThan(5000L))
-                .statusCode(404);
+                .statusCode(Resources.Clint_Error_Not_Found);
     }
 }

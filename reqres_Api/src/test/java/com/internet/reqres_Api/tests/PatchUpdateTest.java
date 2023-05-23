@@ -1,6 +1,7 @@
 package com.internet.reqres_Api.tests;
 
-import com.internet.reqres_Api.tests.Configuration.BaseURL;
+import com.internet.reqres_Api.tests.Protocol_Design.PostUtils;
+import com.internet.reqres_Api.tests.Utilities.Resources;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
@@ -8,19 +9,26 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.lessThan;
 
-public class PatchUpdateTest extends BaseURL {
+public class PatchUpdateTest {
+
+    String parameter = "/users/2";
+
+    String PATCH_Update_EndPoint = Resources.Service_End_Point + Resources.Resource_End_Point + parameter;
+
     @Test
     public void patchUpdateTest() {
-        final String json = "{\"name\": \"mridul\", \"job\": \"full stack sqa\"}";
+        System.out.println("PATCHUpdate_EndPoint: " + PATCH_Update_EndPoint);
+
+
         Response patchUpdateTest = given().
                 contentType("application/json")
-                .body(json)
+                .body(PostUtils.json_Patch_Update)
                 .when()
-                .patch("https://reqres.in/api/users/2");
+                .patch(PATCH_Update_EndPoint);
         patchUpdateTest.then()
                 .assertThat()
                 .time(lessThan(5000L))
-                .statusCode(200)
+                .statusCode(Resources.Successfull_Status_Code)
                 .body("name", equalTo("mridul"))
                 .body("job", equalTo("full stack sqa"));
 

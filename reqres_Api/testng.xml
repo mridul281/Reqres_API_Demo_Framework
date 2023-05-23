@@ -2,77 +2,77 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="F:/github/Reqres_API_Demo_Framework/reqres_Api">
         <classes>
-            <class name="com.internet.reqres_Api.tests.DeleteTest">
+            <class name="com.internet.reqres_Api.Tests.Delete_Test.DeleteTest">
                 <methods>
                     <include name="deleteTest"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.GetAllUsersPagedDelayed">
+            <class name="com.internet.reqres_Api.Tests.GetTestes.GetAllUsersPagedDelayed">
                 <methods>
                     <include name="getAllUsersPagedDelayed"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknown">
+            <class name="com.internet.reqres_Api.Tests.GetTestes.GetApiSingleOnlyUnknown">
                 <methods>
                     <include name="getApiSingleOnlyUnknown"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.GetApiSingleOnlyUnknownNotFound">
+            <class name="com.internet.reqres_Api.Tests.GetTestes.GetApiSingleOnlyUnknownNotFound">
                 <methods>
                     <include name="getApiSingleOnlyUnknownNotFound"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.GetListApiUnknown">
+            <class name="com.internet.reqres_Api.Tests.GetTestes.GetListApiUnknown">
                 <methods>
                     <include name="getListApiUnknown"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.GetSingleUser">
+            <class name="com.internet.reqres_Api.Tests.GetTestes.GetSingleUser">
                 <methods>
                     <include name="getSingleUser"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.GetSingleUserNotFound">
+            <class name="com.internet.reqres_Api.Tests.GetTestes.GetSingleUserNotFound">
                 <methods>
                     <include name="getSingleUserNotFound"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.GetUserList">
+            <class name="com.internet.reqres_Api.Tests.GetTestes.GetUserList">
                 <methods>
                     <include name="getUserList"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.PatchUpdateTest">
+            <class name="com.internet.reqres_Api.Tests.Put_Patch_Tests.PatchUpdateTest">
                 <methods>
                     <include name="patchUpdateTest"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.PostCreateTest">
+            <class name="com.internet.reqres_Api.Tests.PostTestes.PostCreateTest">
                 <methods>
                     <include name="postCreateTest"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.PostLoginSuccessfulTest">
+            <class name="com.internet.reqres_Api.Tests.PostTestes.PostLoginSuccessfulTest">
                 <methods>
                     <include name="postLoginSuccessfulTest"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.PostLoginUnsuccessfulTest">
+            <class name="com.internet.reqres_Api.Tests.PostTestes.PostLoginUnsuccessfulTest">
                 <methods>
                     <include name="postLoginUnsuccessfulTest"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.PostRegisterUserTest">
+            <class name="com.internet.reqres_Api.Tests.PostTestes.PostRegisterUserTest">
                 <methods>
                     <include name="postRegisterUserTest"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.PostRegisterUserUnsuccessfulTest">
+            <class name="com.internet.reqres_Api.Tests.PostTestes.PostRegisterUserUnsuccessfulTest">
                 <methods>
                     <include name="postRegisterUserUnsuccessfulTest"/>
                 </methods>
             </class>
-            <class name="com.internet.reqres_Api.tests.PutUpdateTest">
+            <class name="com.internet.reqres_Api.Tests.Put_Patch_Tests.PutUpdateTest">
                 <methods>
                     <include name="putUpdateTest"/>
                 </methods>
